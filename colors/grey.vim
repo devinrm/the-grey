@@ -127,3 +127,8 @@ highlight! link TabLineSel StatusLine
 " ALE
 highlight! ALEWarningSign guifg=#870000 guibg=#1c1c1c
 highlight! ALEErrorSign guifg=#870000 guibg=#1c1c1c
+
+" statusline
+highlight! User1 guifg=#4e4e4e guibg=#666666 gui=BOLD
+highlight! User2 guifg=#4e4e4e guibg=#666666
+highlight! User3 guifg=#4e4e4e guibg=#1c1c1c
