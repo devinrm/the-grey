@@ -76,7 +76,7 @@ hi PmenuSbar      guifg=#1c1c1c guibg=#e4e4e4 gui=NONE
 hi PmenuSel       guifg=#4e4e4e guibg=#9e9e9e
 hi PmenuThumb     guifg=#4e4e4e guibg=#949494 gui=NONE
 hi StatusLine     guifg=#a8a8a8 guibg=#4e4e4e gui=NONE
-hi StatusLineNC   guifg=#585858 guibg=#262626 gui=NONE
+hi StatusLineNC   guifg=#585858 guibg=#1c1c1c gui=NONE
 hi WildMenu       guifg=#8a8a8a guibg=NONE
 hi VertSplit      guifg=#1c1c1c guibg=#1c1c1c gui=NONE
 hi DiffAdd        guifg=#080808 guibg=#00875f
