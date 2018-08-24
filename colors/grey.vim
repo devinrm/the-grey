@@ -30,22 +30,22 @@ if has("nvim") && (has("gui_running") || &termguicolors)
 endif
 
 hi Normal         guifg=#bcbcbc guibg=#1c1c1c
-hi Constant       guifg=#666666 guibg=NONE gui=bold
-hi String         guifg=#9e9e9e guibg=NONE gui=NONE
-hi Number         guifg=#767676 guibg=NONE gui=NONE
-hi Identifier     guifg=#8a8a8a guibg=NONE gui=NONE
-hi Function       guifg=#8a8a8a guibg=NONE gui=NONE
-hi Statement      guifg=#666666 guibg=NONE gui=bold
-hi Operator       guifg=#666666 guibg=NONE gui=NONE
+hi Constant       guifg=#666666 guibg=NONE    gui=bold
+hi String         guifg=#9e9e9e guibg=NONE    gui=NONE
+hi Number         guifg=#767676 guibg=NONE    gui=NONE
+hi Identifier     guifg=#8a8a8a guibg=NONE    gui=NONE
+hi Function       guifg=#8a8a8a guibg=NONE    gui=NONE
+hi Statement      guifg=#666666 guibg=NONE    gui=bold
+hi Operator       guifg=#666666 guibg=NONE    gui=NONE
 hi Keyword        guifg=#666666 guibg=NONE
-hi PreProc        guifg=#808080 guibg=NONE gui=NONE
-hi Type           guifg=#666666 guibg=NONE gui=bold
+hi PreProc        guifg=#808080 guibg=NONE    gui=NONE
+hi Type           guifg=#666666 guibg=NONE    gui=bold
 hi Special        guifg=#666666 guibg=NONE
-hi SpecialComment guifg=#af5f00 guibg=NONE gui=bold
-hi Title          guifg=#808080 guibg=NONE gui=bold
+hi SpecialComment guifg=#af5f00 guibg=NONE    gui=bold
+hi Title          guifg=#808080 guibg=NONE    gui=bold
 hi Todo           guifg=#5f5fd7 guibg=#1c1c1c
 if has("nvim") || has("gui_running")
-    hi Comment    guifg=#af5f00 guibg=NONE gui=italic
+    hi Comment    guifg=#af5f00 guibg=NONE    gui=italic
 else
     hi Comment    guifg=#af5f00 guibg=NONE
 endif
@@ -56,10 +56,10 @@ hi CursorLineNr   guifg=#c6c6c6 guibg=#262626 gui=NONE
 hi Visual         guifg=#1c1c1c guibg=#767676
 hi Search         guifg=#eeeeee guibg=#87005f gui=NONE
 hi IncSearch      guifg=#1c1c1c guibg=#808080 gui=bold
-hi SpellBad       guifg=#a63038 guibg=#1c1c1c gui=undercurl
-hi SpellCap       guifg=#a63038 guibg=#1c1c1c gui=undercurl
-hi SpellLocal     guifg=#a63038 guibg=#1c1c1c gui=undercurl
-hi SpellRare      guifg=#af5f00 guibg=#1c1c1c gui=undercurl
+hi SpellBad       guifg=#a63038 guibg=#1c1c1c gui=bold
+hi SpellCap       guifg=#a63038 guibg=#1c1c1c gui=bold
+hi SpellLocal     guifg=#a63038 guibg=#1c1c1c gui=bold
+hi SpellRare      guifg=#af5f00 guibg=#1c1c1c gui=bold
 hi Error          guifg=#a63038 guibg=#1c1c1c gui=bold
 hi ErrorMsg       guifg=#a63038 guibg=#1c1c1c
 hi WarningMsg     guifg=#af5f00 guibg=#1c1c1c
@@ -126,7 +126,7 @@ highlight! link TabLineSel StatusLine
 
 " ALE
 highlight! ALEWarningSign guifg=#a63038 guibg=#1c1c1c
-highlight! ALEErrorSign guifg=#a63038 guibg=#1c1c1c
+highlight! ALEErrorSign   guifg=#a63038 guibg=#1c1c1c
 
 " statusline
 highlight! User1 guifg=#4e4e4e guibg=#666666 gui=BOLD
