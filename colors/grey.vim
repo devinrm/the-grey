@@ -44,11 +44,7 @@ hi Special        guifg=#666666 guibg=NONE
 hi SpecialComment guifg=#af5f00 guibg=NONE    gui=bold
 hi Title          guifg=#808080 guibg=NONE    gui=bold
 hi Todo           guifg=#5f5fd7 guibg=#1c1c1c
-if has("nvim") || has("gui_running")
-    hi Comment    guifg=#af5f00 guibg=NONE    gui=italic
-else
-    hi Comment    guifg=#af5f00 guibg=NONE
-endif
+hi Comment        guifg=#af5f00 guibg=NONE    gui=italic
 hi LineNr         guifg=#585858 guibg=#1c1c1c gui=NONE
 hi FoldColumn     guifg=#808080 guibg=#262626 gui=NONE
 hi CursorLine     guifg=NONE    guibg=#1c1c1c gui=NONE
@@ -125,10 +121,10 @@ highlight! link TabLineFill StatusLineNC
 highlight! link TabLineSel StatusLine
 
 " ALE
-highlight! ALEWarningSign guifg=#a63038 guibg=#1c1c1c
-highlight! ALEErrorSign   guifg=#a63038 guibg=#1c1c1c
+highlight! ALEWarningSign guifg=#a63038 guibg=#1c1c1c gui=bold
+highlight! ALEErrorSign   guifg=#a63038 guibg=#1c1c1c gui=bold
 
 " statusline
-highlight! User1 guifg=#4e4e4e guibg=#666666 gui=BOLD
+highlight! User1 guifg=#4e4e4e guibg=#666666 gui=bold
 highlight! User2 guifg=#4e4e4e guibg=#666666
 highlight! User3 guifg=#4e4e4e guibg=#1c1c1c
