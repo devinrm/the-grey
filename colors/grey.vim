@@ -61,7 +61,7 @@ hi ErrorMsg       guifg=#a63038 guibg=#1c1c1c
 hi WarningMsg     guifg=#af5f00 guibg=#1c1c1c
 hi ModeMsg        guifg=#9e9e9e guibg=NONE
 hi MoreMsg        guifg=#9e9e9e guibg=NONE
-hi MatchParen     guifg=#8182a3 guibg=#1c1c1c gui=bold
+hi MatchParen     guifg=#00afff guibg=#1c1c1c gui=bold
 hi Cursor         guifg=NONE    guibg=#b2b2b2
 hi Underlined     guifg=#8a8a8a guibg=NONE    gui=underline
 hi SpecialKey     guifg=#585858 guibg=NONE
