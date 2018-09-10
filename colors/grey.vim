@@ -75,13 +75,10 @@ hi StatusLine     guifg=#a8a8a8 guibg=#4e4e4e gui=NONE
 hi StatusLineNC   guifg=#585858 guibg=#1c1c1c gui=NONE
 hi WildMenu       guifg=#8a8a8a guibg=NONE
 hi VertSplit      guifg=#1c1c1c guibg=#1c1c1c gui=NONE
-hi DiffAdd        guifg=#080808 guibg=#00875f
-hi DiffChange     guifg=#080808 guibg=#005f87
-hi DiffDelete     guifg=#080808 guibg=#a63038
-hi DiffText       guifg=#1c1c1c guibg=#00afff
-hi DiffAdded      guifg=#00875f guibg=#1c1c1c
-hi DiffChanged    guifg=#005f87 guibg=#1c1c1c
-hi DiffRemoved    guifg=#a63038 guibg=#1c1c1c
+hi DiffAdd        guifg=#87af87 guibg=#262626 gui=reverse
+hi DiffChange     guifg=#8787af guibg=#262626 gui=reverse
+hi DiffDelete     guifg=#af5f5f guibg=#262626 gui=reverse
+hi DiffText       guifg=#ff8700 guibg=#262626 gui=reverse
 
 highlight! link Character Constant
 highlight! link Float Number
