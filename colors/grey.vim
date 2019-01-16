@@ -120,6 +120,11 @@ highlight! link TabLineSel StatusLine
 " ALE
 highlight! ALEWarningSign guifg=#a63038 guibg=#1c1c1c gui=bold
 highlight! ALEErrorSign   guifg=#a63038 guibg=#1c1c1c gui=bold
+highlight! ALEVirtualTextError guifg=#a63038
+highlight! ALEVirtualTextWarning guifg=#a63038
+highlight! ALEVirtualTextInfo guifg=#a63038
+highlight! ALEVirtualTextStyleError guifg=#a63038
+highlight! ALEVirtualTextStyleWarning guifg=#a63038
 
 " statusline
 highlight! User1 guifg=#4e4e4e guibg=#666666 gui=bold
