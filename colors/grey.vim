@@ -49,7 +49,7 @@ hi LineNr         guifg=#585858 guibg=#1c1c1c gui=NONE
 hi FoldColumn     guifg=#808080 guibg=#262626 gui=NONE
 hi CursorLine     guifg=NONE    guibg=#1c1c1c gui=NONE
 hi CursorLineNr   guifg=#c6c6c6 guibg=#262626 gui=NONE
-hi Visual         guibg=#2c323c               gui=NONE
+hi Visual         guifg=#1c1c1c guibg=#767676
 hi Search         guifg=#eeeeee guibg=#87005f gui=NONE
 hi IncSearch      guifg=#1c1c1c guibg=#808080 gui=bold
 hi SpellBad       guifg=#a63038 guibg=#1c1c1c gui=bold
