@@ -41,10 +41,10 @@ hi Keyword        guifg=#666666 guibg=NONE
 hi PreProc        guifg=#808080 guibg=NONE    gui=NONE
 hi Type           guifg=#666666 guibg=NONE    gui=bold
 hi Special        guifg=#666666 guibg=NONE
-hi SpecialComment guifg=#af5f00 guibg=NONE    gui=bold
+hi SpecialComment guifg=#8f6ead guibg=NONE    gui=bold
 hi Title          guifg=#808080 guibg=NONE    gui=bold
 hi Todo           guifg=#5f5fd7 guibg=#1c1c1c
-hi Comment        guifg=#af5f00 guibg=NONE    gui=italic
+hi Comment        guifg=#8f6ead guibg=NONE    gui=italic
 hi LineNr         guifg=#585858 guibg=#1c1c1c gui=NONE
 hi FoldColumn     guifg=#808080 guibg=#262626 gui=NONE
 hi CursorLine     guifg=NONE    guibg=#1c1c1c gui=NONE
