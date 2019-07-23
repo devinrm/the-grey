@@ -127,6 +127,6 @@ highlight! ALEVirtualTextStyleError guifg=#a63038
 highlight! ALEVirtualTextStyleWarning guifg=#a63038
 
 " statusline
-highlight! User1 guifg=#4e4e4e guibg=#666666 gui=bold
-highlight! User2 guifg=#4e4e4e guibg=#666666
+highlight! User1 guifg=#4e4e4e guibg=#1c1c1c gui=bold
+highlight! User2 guifg=#4e4e4e guibg=#1c1c1c
 highlight! User3 guifg=#4e4e4e guibg=#1c1c1c
