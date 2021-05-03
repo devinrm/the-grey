@@ -136,3 +136,4 @@ highlight! jsxTag guifg=#8f6ead
 highlight! jsxCloseTag guifg=#8f6ead
 highlight! tsxTag guifg=#8f6ead
 highlight! tsxCloseTag guifg=#8f6ead
+highlight! typescriptTypeBrackets guifg=#8f6ead
