@@ -58,6 +58,9 @@ hi SpellLocal     guifg=#a63038 guibg=#1c1c1c gui=bold
 hi SpellRare      guifg=#af5f00 guibg=#1c1c1c gui=bold
 hi Error          guifg=#a63038 guibg=#1c1c1c gui=bold
 hi ErrorMsg       guifg=#a63038 guibg=#1c1c1c
+hi Warning        guifg=#af5f00 guibg=#1c1c1c
+hi Information    guifg=#00afff guibg=#1c1c1c
+hi Hint           guifg=#87af87 guibg=#1c1c1c
 hi WarningMsg     guifg=#af5f00 guibg=#1c1c1c
 hi ModeMsg        guifg=#9e9e9e guibg=NONE
 hi MoreMsg        guifg=#9e9e9e guibg=NONE
@@ -116,15 +119,6 @@ highlight! link VisualNOS Visual
 highlight! link TabLine StatusLineNC
 highlight! link TabLineFill StatusLineNC
 highlight! link TabLineSel StatusLine
-
-" ALE
-highlight! ALEWarningSign guifg=#a63038 guibg=#1c1c1c gui=bold
-highlight! ALEErrorSign   guifg=#a63038 guibg=#1c1c1c gui=bold
-highlight! ALEVirtualTextError guifg=#a63038
-highlight! ALEVirtualTextWarning guifg=#a63038
-highlight! ALEVirtualTextInfo guifg=#a63038
-highlight! ALEVirtualTextStyleError guifg=#a63038
-highlight! ALEVirtualTextStyleWarning guifg=#a63038
 
 " statusline
 highlight! User1 guifg=#4e4e4e guibg=#1c1c1c gui=bold
