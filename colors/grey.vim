@@ -131,3 +131,70 @@ highlight! jsxCloseTag guifg=#8f6ead
 highlight! tsxTag guifg=#8f6ead
 highlight! tsxCloseTag guifg=#8f6ead
 highlight! typescriptTypeBrackets guifg=#8f6ead
+
+" Misc
+highlight TSError guifg=#a63038
+highlight TSPunctDelimiter guifg=#666666
+highlight TSPunctBracket guifg=#8f6ead
+highlight TSPunctSpecial guifg=#8f6ead
+
+" Constants
+highlight TSConstant guifg=#666666
+highlight TSConstBuiltin guifg=#666666
+" Not sure about this guy
+highlight TSConstMacro guifg=#666666
+highlight TSString guifg=#9e9e9e
+highlight TSStringRegex guifg=#9e9e9e
+highlight TSStringEscape guifg=#9e9e9e
+highlight TSCharacter guifg=#CE9178
+highlight TSNumber guifg=#767676
+highlight TSBoolean guifg=#bcbcbc
+highlight TSFloat guifg=#767676
+highlight TSAnnotation guifg=#666666
+highlight TSAttribute guifg=#bcbcbc
+highlight TSNamespace guifg=#bcbcbc
+
+
+" Functions
+" highlight TSFuncBuiltin guifg=#8a8a8a
+highlight TSFuncBuiltin guifg=#666666
+highlight TSFunction guifg=#666666
+highlight TSFuncMacro guifg=#666666
+highlight TSParameter guifg=#585858
+highlight TSParameterReference guifg=#585858
+highlight TSMethod guifg=#666666
+highlight TSField guifg=#585858
+highlight TSProperty guifg=#585858
+highlight TSConstructor guifg=#8a8a8a
+
+" Keywords
+highlight TSConditional guifg=#8f6ead
+highlight TSRepeat guifg=#8f6ead
+highlight TSLabel guifg=#bcbcbc
+" Does not work for yield and return they should be diff then class and def
+highlight TSKeyword guifg=#bcbcbc
+highlight TSKeywordFunction guifg=#bcbcbc
+highlight TSKeywordOperator guifg=#bcbcbc
+highlight TSOperator guifg=#ABB2BF
+highlight TSException guifg=#8f6ead
+highlight TSType guifg=#8a8a8a
+highlight TSTypeBuiltin guifg=#bcbcbc
+highlight TSStructure guifg=#bcbcbc
+highlight TSInclude guifg=#8f6ead
+
+" Variable
+highlight TSVariable guifg=#585858
+highlight TSVariableBuiltin guifg=#585858
+
+" Text
+highlight TSText guifg=#bcbcbc
+highlight TSStrong guifg=#bcbcbc
+highlight TSEmphasis guifg=#bcbcbc
+highlight TSUnderline guifg=#bcbcbc
+highlight TSTitle guifg=#bcbcbc
+highlight TSLiteral guifg=#bcbcbc
+highlight TSURI guifg=#bcbcbc
+
+" Tags
+highlight TSTag guifg=#bcbcbc
+highlight TSTagDelimiter guifg=#666666
