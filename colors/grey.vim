@@ -66,7 +66,7 @@ hi ModeMsg        guifg=#9e9e9e guibg=NONE
 hi MoreMsg        guifg=#9e9e9e guibg=NONE
 hi MatchParen     guifg=#00afff guibg=#1c1c1c gui=bold
 hi Cursor         guifg=NONE    guibg=#b2b2b2
-hi Underlined     guifg=#8a8a8a guibg=NONE    gui=underline
+hi Underlined     guifg=NONE guibg=NONE    gui=NONE cterm=NONE
 hi SpecialKey     guifg=#585858 guibg=NONE
 hi NonText        guifg=#585858 guibg=NONE
 hi Directory      guifg=#8a8a8a guibg=NONE
@@ -120,11 +120,6 @@ highlight! link TabLine StatusLineNC
 highlight! link TabLineFill StatusLineNC
 highlight! link TabLineSel StatusLine
 
-" statusline
-highlight! User1 guifg=#4e4e4e guibg=#1c1c1c gui=bold
-highlight! User2 guifg=#4e4e4e guibg=#1c1c1c
-highlight! User3 guifg=#4e4e4e guibg=#1c1c1c
-
 " languages
 highlight! jsxTag guifg=#8f6ead
 highlight! jsxCloseTag guifg=#8f6ead
@@ -133,7 +128,7 @@ highlight! tsxCloseTag guifg=#8f6ead
 highlight! typescriptTypeBrackets guifg=#8f6ead
 
 " Misc
-highlight TSError guifg=#a63038
+highlight TSError guifg=#5f5fd7
 highlight TSPunctDelimiter guifg=#666666
 highlight TSPunctBracket guifg=#8f6ead
 highlight TSPunctSpecial guifg=#8f6ead
@@ -146,13 +141,13 @@ highlight TSConstMacro guifg=#666666
 highlight TSString guifg=#9e9e9e
 highlight TSStringRegex guifg=#9e9e9e
 highlight TSStringEscape guifg=#9e9e9e
-highlight TSCharacter guifg=#CE9178
+highlight TSCharacter guifg=#8f6ead
 highlight TSNumber guifg=#767676
-highlight TSBoolean guifg=#bcbcbc
+highlight TSBoolean guifg=#9e9e9e
 highlight TSFloat guifg=#767676
 highlight TSAnnotation guifg=#666666
-highlight TSAttribute guifg=#bcbcbc
-highlight TSNamespace guifg=#bcbcbc
+highlight TSAttribute guifg=#9e9e9e
+highlight TSNamespace guifg=#9e9e9e
 
 
 " Functions
@@ -170,16 +165,16 @@ highlight TSConstructor guifg=#8a8a8a
 " Keywords
 highlight TSConditional guifg=#8f6ead
 highlight TSRepeat guifg=#8f6ead
-highlight TSLabel guifg=#bcbcbc
+highlight TSLabel guifg=#9e9e9e
 " Does not work for yield and return they should be diff then class and def
-highlight TSKeyword guifg=#bcbcbc
-highlight TSKeywordFunction guifg=#bcbcbc
-highlight TSKeywordOperator guifg=#bcbcbc
+highlight TSKeyword guifg=#9e9e9e
+highlight TSKeywordFunction guifg=#9e9e9e
+highlight TSKeywordOperator guifg=#9e9e9e
 highlight TSOperator guifg=#ABB2BF
 highlight TSException guifg=#8f6ead
 highlight TSType guifg=#8a8a8a
-highlight TSTypeBuiltin guifg=#bcbcbc
-highlight TSStructure guifg=#bcbcbc
+highlight TSTypeBuiltin guifg=#9e9e9e
+highlight TSStructure guifg=#9e9e9e
 highlight TSInclude guifg=#8f6ead
 
 " Variable
@@ -187,14 +182,14 @@ highlight TSVariable guifg=#585858
 highlight TSVariableBuiltin guifg=#585858
 
 " Text
-highlight TSText guifg=#bcbcbc
-highlight TSStrong guifg=#bcbcbc
-highlight TSEmphasis guifg=#bcbcbc
-highlight TSUnderline guifg=#bcbcbc
-highlight TSTitle guifg=#bcbcbc
-highlight TSLiteral guifg=#bcbcbc
-highlight TSURI guifg=#bcbcbc
+highlight TSText guifg=#9e9e9e
+highlight TSStrong guifg=#9e9e9e
+highlight TSEmphasis guifg=#9e9e9e
+highlight TSUnderline guifg=#9e9e9e
+highlight TSTitle guifg=#9e9e9e
+highlight TSLiteral guifg=#9e9e9e
+highlight TSURI guifg=#9e9e9e
 
 " Tags
-highlight TSTag guifg=#bcbcbc
+highlight TSTag guifg=#9e9e9e
 highlight TSTagDelimiter guifg=#666666
