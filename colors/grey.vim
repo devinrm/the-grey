@@ -128,7 +128,7 @@ highlight! tsxCloseTag guifg=#8f6ead
 highlight! typescriptTypeBrackets guifg=#8f6ead
 
 " Misc
-highlight TSError guifg=#5f5fd7
+highlight TSError guifg=#9e9e9e
 highlight TSPunctDelimiter guifg=#666666
 highlight TSPunctBracket guifg=#8f6ead
 highlight TSPunctSpecial guifg=#8f6ead
