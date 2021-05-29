@@ -12,7 +12,7 @@ let g:colors_name = 'grey'
 
 if has('nvim') && (has('gui_running') || &termguicolors)
   let g:terminal_color_0  = '#25272c'
-  let g:terminal_color_1  = '#ba2a2a'
+  let g:terminal_color_1  = '#bf616a'
   let g:terminal_color_2  = '#008542'
   let g:terminal_color_3  = '#eac06e'
   let g:terminal_color_4  = '#7e8aa2'
@@ -49,22 +49,22 @@ hi LineNr         guifg=#585858 guibg=#1c1c1c gui=NONE
 hi FoldColumn     guifg=#808080 guibg=#262626 gui=NONE
 hi CursorLine     guifg=NONE    guibg=#1c1c1c gui=NONE cterm=NONE
 hi CursorLineNr   guifg=#c6c6c6 guibg=#262626 gui=NONE cterm=NONE
-hi Visual         guifg=#1c1c1c guibg=#767676
+hi Visual         guifg=#81a1c1 guibg=#262626 gui=NONE cterm=NONE
 hi Search         guifg=#eeeeee guibg=#87005f gui=NONE
 hi IncSearch      guifg=#1c1c1c guibg=#808080 gui=bold
-hi SpellBad       guifg=#a63038 guibg=#1c1c1c gui=bold
-hi SpellCap       guifg=#a63038 guibg=#1c1c1c gui=bold
-hi SpellLocal     guifg=#a63038 guibg=#1c1c1c gui=bold
+hi SpellBad       guifg=#bf616a guibg=#1c1c1c gui=bold
+hi SpellCap       guifg=#bf616a guibg=#1c1c1c gui=bold
+hi SpellLocal     guifg=#bf616a guibg=#1c1c1c gui=bold
 hi SpellRare      guifg=#af5f00 guibg=#1c1c1c gui=bold
-hi Error          guifg=#a63038 guibg=#1c1c1c gui=bold
-hi ErrorMsg       guifg=#a63038 guibg=#1c1c1c
+hi Error          guifg=#bf616a guibg=#1c1c1c gui=bold
+hi ErrorMsg       guifg=#bf616a guibg=#1c1c1c
 hi Warning        guifg=#af5f00 guibg=#1c1c1c
-hi Information    guifg=#00afff guibg=#1c1c1c
+hi Information    guifg=#81a1c1 guibg=#1c1c1c
 hi Hint           guifg=#87af87 guibg=#1c1c1c
 hi WarningMsg     guifg=#af5f00 guibg=#1c1c1c
 hi ModeMsg        guifg=#9e9e9e guibg=NONE
 hi MoreMsg        guifg=#9e9e9e guibg=NONE
-hi MatchParen     guifg=#00afff guibg=#1c1c1c gui=bold
+hi MatchParen     guifg=#81a1c1 guibg=#1c1c1c gui=bold
 hi Cursor         guifg=NONE    guibg=#b2b2b2
 hi Underlined     guifg=NONE guibg=NONE    gui=NONE cterm=NONE
 hi SpecialKey     guifg=#585858 guibg=NONE
@@ -193,3 +193,13 @@ highlight TSURI guifg=#9e9e9e
 " Tags
 highlight TSTag guifg=#9e9e9e
 highlight TSTagDelimiter guifg=#666666
+
+" LSP
+highlight LSPDiagnosticsWarning guifg=#b48ead
+highlight LspDiagnosticsDefaultError guifg=#bf616a
+" highlight LspDiagnosticsInformation guifg=
+" highlight LspDiagnosticsHint guifg=
+highlight LspDiagnosticsUnderlineWarning guifg=#b48ead
+highlight LspDiagnosticsUnderlineError guifg=#bf616a
+" highlight LspDiagnosticsUnderlineInformation guifg=
+" highlight LspDiagnosticsUnderlineHint guifg=
