@@ -195,11 +195,11 @@ highlight TSTag guifg=#9e9e9e
 highlight TSTagDelimiter guifg=#666666
 
 " LSP
-highlight LSPDiagnosticsWarning guifg=#b48ead
+highlight LSPDiagnosticsWarning guifg=#bf616a
 highlight LspDiagnosticsDefaultError guifg=#bf616a
 " highlight LspDiagnosticsInformation guifg=
 " highlight LspDiagnosticsHint guifg=
-highlight LspDiagnosticsUnderlineWarning guifg=#b48ead
+highlight LspDiagnosticsUnderlineWarning guifg=#bf616a
 highlight LspDiagnosticsUnderlineError guifg=#bf616a
 " highlight LspDiagnosticsUnderlineInformation guifg=
 " highlight LspDiagnosticsUnderlineHint guifg=
